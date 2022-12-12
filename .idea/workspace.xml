@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add getRooms and getReservations Commands">
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/AddNewRoomCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/DeleteOrderCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add addNewRoom and deleteOrder Commands">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670851360969</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add addNewRoom and deleteOrder Commands">
+      <created>1670851591499</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670851591499</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +175,7 @@
     <MESSAGE value="Add reserve and unreserve Commands" />
     <MESSAGE value="Add register Command" />
     <MESSAGE value="Add getRooms and getReservations Commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add getRooms and getReservations Commands" />
+    <MESSAGE value="Add addNewRoom and deleteOrder Commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add addNewRoom and deleteOrder Commands" />
   </component>
 </project>
