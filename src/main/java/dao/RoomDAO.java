@@ -10,10 +10,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Callable;
 
 @NoArgsConstructor
 @AllArgsConstructor
-public class RoomDAO {
+public class RoomDAO implements Callable<List<Room>> {
     private String command;
     private int roomId;
     private boolean status;

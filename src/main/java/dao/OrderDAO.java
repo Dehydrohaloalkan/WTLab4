@@ -10,10 +10,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Callable;
 
 @NoArgsConstructor
 @AllArgsConstructor
-public class OrderDAO {
+public class OrderDAO implements Callable<List<Order>> {
     private String command;
     private int userId;
     private int roomId;

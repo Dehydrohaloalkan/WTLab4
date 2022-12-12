@@ -6,8 +6,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.concurrent.Callable;
 
-public class UserDAO {
+public class UserDAO implements Callable<User> {
     private final String command;
     private final User user;
 
