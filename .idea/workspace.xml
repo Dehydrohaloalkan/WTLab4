@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add reserve and unreserve Commands">
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/RegisterCommand.java" afterDir="false" />
+    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add register Command">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/GetRoomsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/GetUserReservationsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670851073251</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add register Command">
+      <created>1670851230619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670851230619</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +160,7 @@
     <MESSAGE value="Add service for order" />
     <MESSAGE value="Add LogIn and LodOut Commands" />
     <MESSAGE value="Add reserve and unreserve Commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add reserve and unreserve Commands" />
+    <MESSAGE value="Add register Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add register Command" />
   </component>
 </project>
