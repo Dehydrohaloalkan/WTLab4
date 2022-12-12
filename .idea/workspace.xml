@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add register Command">
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/GetRoomsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/GetUserReservationsCommand.java" afterDir="false" />
+    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add getRooms and getReservations Commands">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/AddNewRoomCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/DeleteOrderCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670851230619</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add getRooms and getReservations Commands">
+      <created>1670851360969</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670851360969</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +168,7 @@
     <MESSAGE value="Add LogIn and LodOut Commands" />
     <MESSAGE value="Add reserve and unreserve Commands" />
     <MESSAGE value="Add register Command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add register Command" />
+    <MESSAGE value="Add getRooms and getReservations Commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getRooms and getReservations Commands" />
   </component>
 </project>
