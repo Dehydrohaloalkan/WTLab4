@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add service for room">
+    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add service for order">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/LogInCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/LogOutCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670850043261</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add service for order">
+      <created>1670850362847</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670850362847</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +137,7 @@
     <MESSAGE value="Add Dao and model for room" />
     <MESSAGE value="Add service for user" />
     <MESSAGE value="Add service for room" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add service for room" />
+    <MESSAGE value="Add service for order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add service for order" />
   </component>
 </project>
