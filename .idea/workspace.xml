@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add service for order">
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/LogInCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/LogOutCommand.java" afterDir="false" />
+    <list default="true" id="8962c95d-8039-4129-9f91-e6895351d27a" name="Changes" comment="Add LogIn and LodOut Commands">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/ReserveRoomCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/UnreserveRoomCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670850362847</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add LogIn and LodOut Commands">
+      <created>1670850705659</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670850705659</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +144,7 @@
     <MESSAGE value="Add service for user" />
     <MESSAGE value="Add service for room" />
     <MESSAGE value="Add service for order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add service for order" />
+    <MESSAGE value="Add LogIn and LodOut Commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LogIn and LodOut Commands" />
   </component>
 </project>
